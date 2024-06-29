@@ -20,3 +20,9 @@ previous directory.
 you can implement it if you want.
 - maybe fork this project and add the recursive searching(?)
 - needs better layout design for windows, but ill repeat its just a sample with basic functions.
+
+### visuals
+-![Image 1](1.png)
+-![Image 2](2.png)
+-![Image 3](4.png)
+-![Image 4](3.png)
