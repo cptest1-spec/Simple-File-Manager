@@ -22,7 +22,7 @@ you can implement it if you want.
 - needs better layout design for windows, but ill repeat its just a sample with basic functions.
 
 ### visuals
--![Image 1](Simple-File-Manager/1.png)
--![Image 2](Simple-File-Manager/2.png)
--![Image 3](Simple-File-Manager/4.png)
--![Image 4](Simple-File-Manager/3.png)
+-![Image 1](Simple-File-Manager/1.jpg)
+-![Image 2](Simple-File-Manager/2.jpg)
+-![Image 3](Simple-File-Manager/4.jpg)
+-![Image 4](Simple-File-Manager/3..jpg)
