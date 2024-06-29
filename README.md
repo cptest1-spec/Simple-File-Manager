@@ -1,3 +1,7 @@
+## ⚠️ NOTES
+- You should compile it by yourself using AIDE or any other similar programs, applications.
+
+
 ## links
 - View my [Github account](https://github.com/cptest1-spec).
 - All icons, images used in this file belong to their respective owners. The links to where i got the images, icons: [Flaticon](https://flaticon.com). This website provides many high-quality icons. 
