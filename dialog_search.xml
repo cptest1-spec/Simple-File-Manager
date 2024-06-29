@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search: "
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/searchQueryEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter search query"/>
+
+    <RadioGroup
+        android:id="@+id/resultsRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ALL"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/radioFolders"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FOLDERS"/>
+
+        <RadioButton
+            android:id="@+id/radioFiles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FILES"/>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/extensionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Extension (e.g., .txt)"
+        android:visibility="gone"/>
+
+    <!-- Checkbox for Regex Search -->
+    <CheckBox
+        android:id="@+id/regexCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regex Search"/>
+
+    <!-- Checkbox for Case Sensitive Search -->
+    <CheckBox
+        android:id="@+id/caseSensitiveCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Case Sensitive"/>
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:onClick="cancelSearchDialog"
+        android:layout_gravity="bottom|left"/>
+
+    <Button
+        android:id="@+id/searchStartButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:layout_gravity="bottom|right"/>
+</LinearLayout>
