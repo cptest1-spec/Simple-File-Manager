@@ -1,6 +1,8 @@
 ## ⚠️ NOTES
 - You should compile it by yourself using AIDE or any other similar programs, applications.
-
+- we wont update this app anymore, as we wanna keep the projects as simple as possible.
+- if you support this project to be updated with minimal fixes or updates, we will do it.
+- but we dont do it daily, as we really dont focus on this much anymore.
 
 ## links
 - View my [Github account](https://github.com/cptest1-spec).
