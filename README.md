@@ -1,5 +1,6 @@
 ## ⚠️ NOTES
 - You should compile it by yourself using AIDE or any other similar programs, applications.
+- download the apk from the releases. i messed in the branch (smh)
 - ~~we wont update this app anymore, as we wanna keep the projects as simple as possible.~~
 - if you support this project, we may update it regularly.
 
